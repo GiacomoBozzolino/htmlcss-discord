@@ -118,15 +118,11 @@ h2{
 }
 
 .column-40{
-    width: 40%;
-    background-color: pink;
-    height:100%;
-    border: black 2px dashed; 
+    width: 40%;  
 }
+
 .column-60{
-    width: 60%;
-   
-   
+    width: 60%;    
 }
 
 .column-70{
@@ -160,7 +156,7 @@ h2{
 }
 
 .jumbotron{
-    height: 500px;
+    
     padding: 40px 0;
 }
 

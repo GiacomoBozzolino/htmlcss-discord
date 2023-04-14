@@ -63,6 +63,9 @@ a{
     color: black;
     padding-top: 20px;
     margin: 20px;
+   
+    
+    
     
 }
 
@@ -81,6 +84,14 @@ h2{
     padding: 10px 0;
 }
 
+h3{
+    font-size: 30px;
+    font-weight: 800;
+    padding: 10px 0;
+  
+    
+
+}
 .description{
     margin-top: 20px;
     font-size: 20px;
@@ -100,6 +111,12 @@ h2{
     
 }
 
+.download-2{
+    background-color: #5865F2;
+    color: white;
+    font-weight: 600;
+}
+/* CLASSI CONTENT MAIN */
 
 
 /* INIZIO CLASSI STILE COLONNE MAIN */
@@ -136,10 +153,10 @@ h2{
 }
 .column-100{
     width: 100%;
-    background-color: darkgreen;
-    height:100%;
-    border: black 2px dashed; 
+    text-align: center;
+
 }
+
 /* FINE CLASSI STILI COLONNE MAIN */
 
 /* UTILITIES */
@@ -150,13 +167,9 @@ h2{
     border: none;
     margin: 5px 10px;  
 }
-.column-60.description{
-  
-   
-}
+
 
 .jumbotron{
-    
     padding: 40px 0;
 }
 
@@ -166,23 +179,11 @@ h2{
     background-size: cover;
 }
 
-.grey{
-    
-    background-image:
-    background-repeat: ;
-    background-size:;
-}
-
-.lightgrey.jumbotron{
-    height: 800px;
-    background-color: lightgrey;
-    
-}
-
-.black.jumbotron{
-    background-color: black;
-    padding: 10px 0 20px 0;
-    margin:0
+.wave{
+    /* background-image: url(../img/wave.svg);
+    background-size: contain;
+    background-repeat: no-repeat; */
+   background-color: rgb(227, 225, 225);
 }
 
 hr{
@@ -193,8 +194,8 @@ hr{
 /* FINE UTILITIES */
 /* INIZIO CLASSI FOOTER */
 footer{
-    background-color: black;
-    height: 100px;
+    background-color: #23272A;
+    
     padding: 20px 0 ;
 }
 

@@ -34,8 +34,7 @@ a{
 .row{
     display: flex;
     justify-content:center;
-    width: 100%;
-    
+    width: 100%;  
 }
 
 .container{
@@ -55,13 +54,18 @@ a{
     padding:5px 0;
     text-align: center;
 }
+
+.presentation{
+    font-size: 20px;
+    padding: 30px 40px;
+    line-height: 1.5em;
+}
 /* FINE CLASSI HEADER */
 
 /* CLASSI CONTENT MAIN */
 .content{
     color: black;
     margin: 20px;
-   
 }
 
 .jumbo{
@@ -88,19 +92,25 @@ h3{
     margin-top: 20px;
     font-size: 20px;
 }
-.presentation{
-    font-size: 20px;
-    padding: 30px 40px;
-}
 
 .download{
-    background-color: white;
-    
+    background-color: white;  
 }
+
+.download::before{
+    content: "\2193";
+    font-size: 25px;
+}
+
+.download-2::before{
+    content: "\2193";
+    font-size: 25px;
+    padding-right: 5px;
+}
+  
 .browser{
     background-color: black;
-    color: white;
-    
+    color: white; 
 }
 
 .download-2{
@@ -152,7 +162,7 @@ h3{
     font-size: 17px;
     padding: 15px 20px;
     border: none;
-    margin: 5px 10px;  
+    margin: 0px 10px;  
 }
 
 
@@ -167,10 +177,7 @@ h3{
 }
 
 .wave{
-    /* background-image: url(../img/wave.svg);
-    background-size: contain;
-    background-repeat: no-repeat; */
-   background-color: rgb(227, 225, 225);
+    rotate: 180deg;
 }
 
 
@@ -184,8 +191,7 @@ footer{
 }
 
 .row-footer{
-    display: flex;
-     
+    display: flex;    
 }
 
 .footer-button{
@@ -195,14 +201,45 @@ footer{
     border-top: 1px solid #5865F2;
     padding: 30px 0;  
 }
+h4{
+    color: #2E5DE9;
+    font-size: 25px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
 
 ul{
     color: white;
-    list-style: none;
+    list-style: none;    
+}
+li{
+    padding: 5px 0;
 }
 
 .icon{
-    display: inline;
+    display: inline-block;
+    padding: 10px;
+    font-size: 15px;
 }
 
-/* FINE CLASSI FOOTER */
+.list-name{
+    color: #2E5DE9;
+}
+#lang-select{
+    color: white;
+    display: inline-block;  
+}
+
+#lang-select::after{
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px; 
+    color: white;
+}
+
+
+#flag{ width:30px;
+   
+}
+/* FINE CLASSI FOOTER */S

@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 /* CLASSI HEADER */
 header {
    height: 75px;
    background-color: #2E5DE9;
 }
+
 .nav.content{
     text-decoration: none;
     color: white;
@@ -55,21 +56,35 @@ a{
     padding:5px 0;
     text-align: center;
 }
-
-
-
-
+/* FINE CLASSI HEADER */
 
 /* CLASSI CONTENT MAIN */
 .content{
-    text-align: center;
+    color: black;
+    padding-top: 20px;
+    margin: 20px;
+    
+}
+
+.jumbo{
     color: white;
+    text-align: center;
 }
 h1{
     margin: 20px 0;
     font-size: 50px;
 }
 
+h2{
+    font-size: 40px;
+    font-weight: 800;
+    padding: 10px 0;
+}
+
+.description{
+    margin-top: 20px;
+    font-size: 20px;
+}
 .presentation{
     font-size: 20px;
     padding: 30px 40px;

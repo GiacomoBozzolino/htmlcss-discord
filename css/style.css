@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* CLASSI HEADER */
+header {
+   height: 75px;
+   background-color: rgba(173,216,230,255);
+
+}
+.row{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+    width: 100%;
+    
+}
+
+.container{
+    margin: 0 auto;
+    width: 1170px;
+    height:100%; 
+}
+
+.left-column, .right-column{
+    width: 25%;
+    background-color: goldenrod;
+    height: 40%;
+    border: black 2px dashed; 
+    padding:5px;
+}
+
+.center-column{
+    width: 50%;
+    background-color: goldenrod;
+    height: 40%;
+    border: black 2px dashed; 
+    padding:5px 0;
+    text-align: center;
+}
+
+.login{
+    text-align: right;
+}
+/* FINE CLASSI HEADER */
+/* INIZIO CLASSI STILE COLONNE MAIN */
+.column-25{
+    width: calc(100%/4);
+    background-color: rgba(32,178,170,255);
+    height:100%;
+    border: white 2px dashed; 
+}
+
+.column-30{
+    width: 30%;
+    background-color: rgba(240,128,128,255);
+    height:100%;
+    border: black 2px dashed; 
+}
+
+.column-40{
+    width: 40%;
+    background-color: pink;
+    height:100%;
+    border: black 2px dashed; 
+}
+.column-60{
+    width: 60%;
+    background-color: rgb(32, 35, 218);
+    height:100%;
+    border: black 2px dashed; 
+}
+
+.column-70{
+    width: 70%;
+    height:100%;
+    border: black 2px dashed; 
+}
+.column-80{
+    width: 80%;
+    background-color:rgba(238,130,238,255);
+    height:90%;
+    border: black 2px dashed; 
+}
+.column-100{
+    width: 100%;
+    background-color: darkgreen;
+    height:100%;
+    border: black 2px dashed; 
+}
+/* FINE CLASSI STILI COLONNE MAIN */
+/* UTILITIES */
+.jumbotron{
+    height: 500px;
+    padding: 40px 0;
+}
+
+.blue{
+    margin-top: 0;
+    background-color:rgba(0,0,139,255);
+}
+
+.grey{
+    background-color: lightgrey;
+}
+
+.lightgrey.jumbotron{
+    height: 800px;
+    background-color: lightgrey;
+    
+}
+
+.black.jumbotron{
+    background-color: black;
+    padding: 10px 0 20px 0;
+    margin:0
+}
+
+hr{
+    color: white;
+}
+
+/* FINE UTILITIES */
+/* INIZIO CLASSI FOOTER */
+footer{
+    background-color: black;
+    height: 100px;
+    padding: 20px 0 ;
+}
+
+.row-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(7, 226, 145, 0.628);
+    height:100%;
+    width: 100%;
+
+}
+
+.left-logo, .right-button{
+    width: 70px;
+    background-color: goldenrod;
+    height: 35%;
+    border: black 1px dashed; 
+    text-align: center;
+}
+
+/* FINE CLASSI FOOTER */

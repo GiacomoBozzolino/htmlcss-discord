@@ -24,13 +24,10 @@ a{
     color: white; 
 }
 
-.button-login{ 
-    border-radius: 40px;
-    font-size: 16px;
-    padding: 10px 20px;
-    border: none;
-    background-color: white;
-    
+.login.button{ 
+   background-color: rgb(255, 255, 255);   
+   font-size: 16px;
+   padding: 10px 20px;
 }
 .row{
     display: flex;
@@ -58,10 +55,10 @@ a{
     text-align: center;
 }
 
-.login{
-    text-align: right;
-}
-/* FINE CLASSI HEADER */
+
+
+
+
 /* CLASSI CONTENT MAIN */
 .content{
     text-align: center;
@@ -70,12 +67,21 @@ a{
 h1{
     margin: 20px 0;
     font-size: 50px;
-  
 }
 
 .presentation{
     font-size: 20px;
     padding: 30px 40px;
+}
+
+.download{
+    background-color: white;
+    
+}
+.browser{
+    background-color: black;
+    color: white;
+    
 }
 
 
@@ -124,7 +130,19 @@ h1{
     border: black 2px dashed; 
 }
 /* FINE CLASSI STILI COLONNE MAIN */
+
 /* UTILITIES */
+.button{
+    border-radius: 40px;
+    font-size: 17px;
+    padding: 15px 20px;
+    border: none;
+    
+}
+
+
+
+
 .jumbotron{
     height: 500px;
     padding: 40px 0;
@@ -132,9 +150,8 @@ h1{
 
 .blue{
     margin-top: 0;
-    /* background-color:rgba(0,0,139,255); */
-   background-image: url(../img/jumbo.png);
-   background-size: cover;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .grey{
@@ -156,6 +173,7 @@ h1{
 hr{
     color: white;
 }
+
 
 /* FINE UTILITIES */
 /* INIZIO CLASSI FOOTER */
